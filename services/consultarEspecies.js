@@ -2,10 +2,10 @@ export async function buscarEspecies(){
 
     const URL="https://swapi.dev/api/species"
     const PETICION={
-        method:"GET",
+        method:"GET"
                
     }  
-    let respuesta=await fetch(URL,PETICION)
-    let especiesEntregadas=await respuesta.json()
+    let respuestaE=await fetch(URL,PETICION)
+    let especiesEntregadas=await respuestaE.json()
     return especiesEntregadas
 }

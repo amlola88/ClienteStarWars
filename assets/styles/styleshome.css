@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner1.jpg");
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -8,4 +8,23 @@
 
 .menu{
     background-color:rgb(22, 22, 95);
+}
+
+.fondoE{
+    background:linear-gradient(white, rgba(1, 1, 79, 0.962));
+    padding: 30px;    
+}
+
+.fondoP{
+    background:linear-gradient(white, rgb(77, 9, 77));
+    padding: 30px;    
+}
+
+
+h4, h1{
+    text-align: center;
+}
+
+p{
+    padding: 10px;
 }
